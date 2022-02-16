@@ -1,11 +1,15 @@
 // Code Wars
 
 // Title:
-// Function 1 - hello world
+// String repeat
 
 // Description:
-// Make a simple function called greet that returns the most-famous "hello world!".
+// Write a function called repeatStr which repeats the given string string exactly n times.
 
-function greet(){
-  return "hello world!";
+repeatStr(6, "I") // "IIIIII"
+repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
+
+
+function repeatStr(n, s) {
+  return s.repeat(n);
 }
