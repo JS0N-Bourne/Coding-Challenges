@@ -1,29 +1,11 @@
-// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+// Code Wars
 
-// BREAKDOWN
-// we want the user to give us a random number
-// then we want to determine if it's even or odd
-// we could do that by using % to see if there's a remainder if divided by 2. If the answer is 0, it's an even number. Otherwise, it's odd.
-// then we want to return "Odd" or "Even".
+// Title:
+// Function 1 - hello world
 
-const num = Number(prompt('Enter a number', 10))
+// Description:
+// Make a simple function called greet that returns the most-famous "hello world!".
 
-if (num % 2 === 0) {
-  alert("Even");
-} else {
-  alert("Odd");
+function greet(){
+  return "hello world!";
 }
-
-
-
-
-function even_or_odd(num) {
-  if (num % 2 === 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
-};
-
-alert(even_or_odd(5));
-alert(even_or_odd(2));
